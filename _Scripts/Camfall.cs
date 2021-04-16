@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Camfall : MonoBehaviour
 {
-    
-    
-    
-
-   
     void FixedUpdate()
     {
         Vector3 camPos = this.transform.position;
