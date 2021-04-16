@@ -6,12 +6,7 @@ public class board : MonoBehaviour
 {
     float boardL = -4.4f;
     float boardR;
-    public float compinsation = 2;
-   
-    void Start()
-    {
-        
-    }
+    public float compinsation = 2
 
 
     void LateUpdate()
