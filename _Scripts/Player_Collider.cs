@@ -11,7 +11,6 @@ public class Player_Collider : MonoBehaviour
         if (coll.gameObject.tag == "Enemy")
         {
             Vector3 buttonPos= button.S.transform.position;
-            print(buttonPos);
             buttonPos.y = 75f;
             button.S.transform.position = buttonPos;
             Time.timeScale = 0f;
