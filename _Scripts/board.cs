@@ -22,8 +22,6 @@ public class board : MonoBehaviour
             pos.x = boardL;
 
         }
-
-
         transform.position = pos;
     }
 }
